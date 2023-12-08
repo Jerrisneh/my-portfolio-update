@@ -161,3 +161,52 @@ button{
         gap: 25%;
     }
 }
+/* project-section */
+.projects{
+ padding: 25px;
+}
+.projects h2{
+    padding: 40px 0;
+}
+.card-row{
+    margin: 80px 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5%;
+}
+.btn{
+    color: #0F1624;
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+.cards {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #0F1624;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.cards img{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.cards h3{
+    padding: 5px;
+    text-align: center;
+}
+hr{
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+    height: 5px;
+    background-color: white;
+}
+.cards p{
+    margin: 10px;
+}
