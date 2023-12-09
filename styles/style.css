@@ -251,8 +251,33 @@ hr{
 }
 .skills-grid ul {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     color: #535353;
     margin: 25px;
     
+}
+@media screen and (min-width:768px){
+    .skills-grid ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:0 20px;
+    }
+}
+@media screen and (min-width:1023px){
+    .skills{
+        padding: 50px 90px;
+    }
+    .skills-grid ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 60px;
+        gap: 0 200px;
+    }
+}
+/* footer section */
+footer{
+    background-color: #F6F4F4;
+    padding: 20px 0px;
+    margin: 40px 10px;
+    text-align: center;
 }
